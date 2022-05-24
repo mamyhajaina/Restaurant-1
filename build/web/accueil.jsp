@@ -39,21 +39,21 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-					 	</div>
+					 </div>
 				<div class="col-md-3 clearfix">
 					<ul class="login-cart">
 						<li>
-							
-							 
+							<a data-toggle="modal" data-target="#myModal" href="#">
+							<i class="fa fa-user" style="font-size: 30px"></i>
+								Logout
+							</a>
 						</li>
 						<li>
 						 
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-2">
-					 
-				</div>
+				 
 			</div> <!-- End Of /.row -->
 		</div>	<!-- End Of /.Container -->
 
@@ -66,30 +66,47 @@
 		    	<div class="modal-content">
 		    		<div class="modal-header">
 		        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-		        		<h4 class="modal-title" id="myModalLabel">Connexion</h4>
+		        		<h4 class="modal-title" id="myModalLabel">Introduce Yourself</h4>
 		      		</div>
 			      	<div class="modal-body clearfix">
 
-						 
-			      		<form action="accueil.jsp" method="post" id="login_form" class="std">
-							 
-								<h3>CONNECTEZ-VOUS</h3>
+						<form action="#" method="post" id="create-account_form" class="std">
+							<fieldset>
+								<h3>Create your account</h3>
+								<div class="form_content clearfix">
+									<h4>Enter your e-mail address to create an account.</h4>
+									<p class="text">
+										<label for="email_create">E-mail address</label>
+										<span>
+											<input placeholder="E-mail address"  type="text" id="email_create" name="email_create" value="" class="account_input">
+					                    </span>
+									</p>
+									<p class="submit">
+										<button class="btn btn-primary">Create Your Account</button>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+			      		<form action="" method="post" id="login_form" class="std">
+							<fieldset>
+								<h3>Already registered?</h3>
 								<div class="form_content clearfix">
 									<p class="text">
-									<label for="email">Login</label>
+									<label for="email">E-mail address</label>
 										<span><input placeholder="E-mail address" type="text" id="email" name="email" value="" class="account_input"></span>
 									</p>
 									<p class="text">
-									<label for="passwd">Mot de passe</label>
+									<label for="passwd">Password</label>
 										<span><input placeholder="Password" type="password" id="passwd" name="passwd" value="" class="account_input"></span>
 									</p>
 									<p class="lost_password">
-										 
+										<a href="#popab-password-reset" class="popab-password-link">Forgot your password?</a>
+									</p>
 									<p class="submit">
 										<button class="btn btn-success">Log in</button>
 									</p>
 								</div>
-							 
+							</fieldset>
 						</form>
 			      	</div>
 			      	<div class="modal-footer">
@@ -136,9 +153,82 @@
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      	<ul class="nav navbar-nav nav-main">
-                            
-		        	<li class="active"><a data-toggle="modal" data-target="#myModal" href="#">LOGIN</a></li>
+		        	 
 					 
+					<li class="dropdown">
+						<a href="#">
+							Ingredient
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+						   <li><a  href="#">Ajouter nouveau Ingredient</a></li>
+						    <li><a  href="#">Stock</a></li> 
+						</ul>
+					</li>  
+                                        <li class="dropdown">
+						<a href="#">
+							Plat
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+						   <li><a  href="#">Ajouter nouveau plat</a></li>
+						    <li><a  href="#">Liste Menu</a></li> 
+						</ul>
+					</li>
+                                        <li class="dropdown">
+						<a href="#">
+							Commande
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+						   <li><a  href="#">Valide</a></li>
+						    <li><a  href="#">Invalide</a></li> 
+						</ul>
+					</li>
+                                        <li class="dropdown">
+						<a href="#">
+							Caisse
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+						   <li><a  href="#">Paiement</a></li>
+						    <li><a  href="#">Liste paiement</a></li> 
+						</ul>
+					</li>
+                                        <li class="dropdown">
+						<a href="#">
+							Cuisine
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+						   <li><a  href="#">Fin de cuisine</a></li> 
+						</ul>
+					</li>
+                                        <li class="dropdown">
+						<a href="#">
+							Livraison
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+						   <li><a  href="#">Programmer</a></li>
+						    <li><a  href="#">Liste des livraisons</a></li> 
+						</ul>
+					</li>
+                                        
+                                          <li class="dropdown">
+						<a href="#">
+							Statistique
+							<span class="caret"></span>
+						</a>
+						 
+					</li>
+                                          <li class="dropdown">
+						<a href="#">
+							Admin
+							<span class="caret"></span>
+						</a>
+						 
+					</li>
 
 					
 		        </ul> <!-- End of /.nav-main -->
@@ -157,14 +247,18 @@
 				<div class="col-md-12">
 					<div id="slider" class="nivoSlider">
 				    	<img src="images/slider.jpg" alt="" />
-				    	<img src="images/slider1.jpg" alt=""/> 
+				    	<img src="images/slider1.jpg" alt=""/>
+				    	 
 					</div>	<!-- End of /.nivoslider -->
 				</div>	<!-- End of /.col-md-12 -->
 			</div>	<!-- End of /.row -->
 		</div>	<!-- End of /.container -->
 	</section> <!-- End of Section -->
- 
- 
+
+
+	
+	<!-- FEATURES Start
+    ================================================== -->
 
 	 
 	
