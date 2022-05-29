@@ -3,8 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/S6/Baovola/Soutenance/Projet_restaurant/web/index.jsp</file>
-            <file>file:/D:/S6/Baovola/Soutenance/Projet_restaurant/web/blog.jsp</file>
+            <file>file:/D:/S6/Baovola/Soutenance/Restaurant/web/listeInvalide.jsp</file>
+            <file>file:/D:/S6/Baovola/Soutenance/Restaurant/web/paiement.jsp</file>
+            <file>file:/D:/S6/Baovola/Soutenance/Restaurant/web/menu.jsp</file>
+            <file>file:/D:/S6/Baovola/Soutenance/Restaurant/src/java/model/Commande.java</file>
+            <file>file:/D:/S6/Baovola/Soutenance/Restaurant/web/invalide.jsp</file>
+            <file>file:/D:/S6/Baovola/Soutenance/Restaurant/src/java/services/ServiceCommande.java</file>
+            <file>file:/D:/S6/Baovola/Soutenance/Restaurant/src/java/servlet/ValideCommande.java</file>
         </group>
     </open-files>
 </project-private>

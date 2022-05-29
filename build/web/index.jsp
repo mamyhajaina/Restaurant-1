@@ -71,17 +71,17 @@
 			      	<div class="modal-body clearfix">
 
 						 
-			      		<form action="accueil.jsp" method="post" id="login_form" class="std">
+			      		<form action="Login" method="post" id="login_form" class="std">
 							 
 								<h3>CONNECTEZ-VOUS</h3>
 								<div class="form_content clearfix">
 									<p class="text">
 									<label for="email">Login</label>
-										<span><input placeholder="E-mail address" type="text" id="email" name="email" value="" class="account_input"></span>
+										<span><input placeholder="Login" type="text" id="email" name="login" value="" class="account_input"></span>
 									</p>
 									<p class="text">
 									<label for="passwd">Mot de passe</label>
-										<span><input placeholder="Password" type="password" id="passwd" name="passwd" value="" class="account_input"></span>
+										<span><input placeholder="Password" type="password" id="passwd" name="password" value="" class="account_input"></span>
 									</p>
 									<p class="lost_password">
 										 
